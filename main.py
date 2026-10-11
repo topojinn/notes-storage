@@ -1,6 +1,7 @@
 print("actions log")
 print("defining target file path")
 notepath = "log.txt"
+passcode = "1999"
 print("deining pre-functions")
 def wrong():
     sys.exit(1)
@@ -25,10 +26,12 @@ try:
 except ModuleNotFoundError:
     print("module not found")
     print("error exit")
+    messagebox.showerror("Module not imported", "go to https://github.com/topojinn/notes-storage/main/README.md")
     wrong()
 except ImportError:
     print("module import fail")
     print("error exit")
+    messagebox.showerror("Module import error", "Sorry for the error. Retry later.")
     wrong()
 print("loading source")
 print("source loaded")
@@ -57,7 +60,7 @@ def note():
     global enternote
     global NoteEntrySplit
     passStr = str(PassEntry.get())
-    if passStr == "1999":
+    if passStr == passcode:
         NoteEntrySplit = ctk.CTkLabel(root, text="")
         NoteEntrySplit.pack()
         TextEntry = ctk.CTkEntry(
