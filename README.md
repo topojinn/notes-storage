@@ -117,7 +117,7 @@ You can also open an issue or a PR because:
 * You want to suggest an edit. Open a pull reuqest!  
 
 Also, please, add in the pull request your Name or NickName, or some socials link,  
-so can i add you in the credits section here.  
+so i can add you in the credits section here.  
 
 Thank you.  
 
