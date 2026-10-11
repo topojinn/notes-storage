@@ -1,6 +1,6 @@
 print("actions log")
 print("defining target file path")
-notepath = "log.txt"
+notepath = "C:\\dev\\haxe\\log.txt"
 passcode = "1999"
 print("deining pre-functions")
 def wrong():
@@ -79,7 +79,7 @@ def note():
                 file.write(f"[{current_time}]\n{addtx}\n")
                 file.write("_" * 40 + "\n")
                 messagebox.showinfo("Note saved", "the note was saved in the file called log.txt\n" \
-                "you can see that file at the path 'C:\\dev\\haxe\\log.txt'.")
+                "you can see that file at the path '"+notepath+"'.")
         TextEntryBtn = ctk.CTkButton(root, text="save note", command=enternote)
         TextEntryBtn.pack()
     else:
