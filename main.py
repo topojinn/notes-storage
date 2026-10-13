@@ -1,6 +1,6 @@
 print("actions log")
 print("defining target file path")
-notepath = "C:\\dev\\haxe\\log.txt"
+notepath = "log.txt"
 passcode = "1999"
 print("deining pre-functions")
 def wrong():
