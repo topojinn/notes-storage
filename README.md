@@ -1,5 +1,8 @@
 # **notes-storage**
-Store notes with data (year, month, day, hour, minute, second) and contet in utf-8
+Store notes with data (year, month, day, hour, minute, second) and contet in utf-8  
+
+You can download the .exe file on the official [itch.io page](https://topojinnprogramming.itch.io/notes-storage).  
+If you download it, you haven't to import the libraries, but you can't easily change the password.  
 
 ## IMPORTANT
 For some motivation, the sys and os modules works if you import them AFTER using.  
